@@ -86,7 +86,7 @@ Version 1.0
 
 	echo "Installing tissue recognition library"
 	cd /github_dl
-	git clone https://github.com/SpatialTranscriptomicsResearch/tissue_recognition
+	git clone https://github.com/SpatialTranscriptomicsResearch/st_tissue_recognition
 	cd tissue_recognition
 	mkdir -p build
 	cd build
