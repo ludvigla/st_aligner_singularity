@@ -128,8 +128,8 @@ Version 1.0
 	cp -R /github_dl/st_aligner/server /home/st_aligner/server
 	cp -R /github_dl/st_aligner/client /home/st_aligner/client
 	mv /home/st_aligner/server/utils.py /home/st_aligner/server/utility.py
-	cp -R /github_dl/tissue_recognition/python-module/tissue_recognition/*.py /home/st_aligner/server
-	cp /github_dl/tissue_recognition/build/src/*.so /home/st_aligner/server
+	cp -R /github_dl/st_tissue_recognition/python-module/tissue_recognition/*.py /home/st_aligner/server
+	cp /github_dl/st_tissue_recognition/build/src/*.so /home/st_aligner/server
 	cp /github_dl/opencv-3.2.0/build/lib/libopencv_core.so.3.2 /home/st_aligner/server
 	cp /github_dl/opencv-3.2.0/build/lib/libopencv_imgproc.so.3.2 /home/st_aligner/server
 	mkdir -p /home/st_aligner/server/logs
